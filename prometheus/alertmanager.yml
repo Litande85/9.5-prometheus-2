@@ -1,0 +1,16 @@
+global:
+route:
+  group_by: ['alertname'] # Параметр группировки оповещений - по имени
+  group_wait: 30s # Сколько ждать восстановления, перед тем как отправить первое оповещение.
+  group_interval: 10m # Сколько ждать перед тем как дослать оповещение о новых сработках по текущему алерту.
+  repeat_interval: 60m # Сколько ждать перед тем как отправить повторное оповещение
+  receiver: 'email' # Способ которым будет доставляться текущее оповещение
+receivers: # Настройка способов оповещения
+- name: 'email' 
+  email_configs:
+  - to: 'yourmailto@todomain.com'
+    from: 'yourmailfrom@fromdomain.com'
+    smarthost: 'mailserver:25'
+    auth_username: 'user'
+    auth_identity: 'user'
+    auth_password: 'paS$w0rd'
