@@ -43,9 +43,11 @@
 
 ![Alt text](img/Screenshot_20221214_020951.png)
 
-![Alt text](img/Screenshot_20221214_221721.png)
-
 ![Alt text](img/Screenshot_20221214_021010.png)
+
+![Alt text](img/Screenshot_20221214_232404.png)
+
+![Alt text](img/Screenshot_20221214_221721.png)
 
 Правила оповещения можно настраивать непосредственно в Grafana без использования Alertmanager, в том числе с отправкой сообщений в telegramm, почту и др.
 
