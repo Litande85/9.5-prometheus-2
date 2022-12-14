@@ -25,6 +25,10 @@
 
 ![Alt text](img/Screenshot_20221214_021728.png) 
 
+В Grafana этот  оповещение  в статусе Pending также отображается:
+
+![Alt text](img/Screenshot_20221214_221407.png)
+
 
 ---
 
@@ -39,7 +43,20 @@
 
 ![Alt text](img/Screenshot_20221214_020951.png)
 
+![Alt text](img/Screenshot_20221214_221721.png)
+
 ![Alt text](img/Screenshot_20221214_021010.png)
+
+Правила оповещения можно настраивать непосредственно в Grafana без использования Alertmanager, в том числе с отправкой сообщений в telegramm, почту и др.
+
+https://grafana.com/docs/grafana/latest/alerting/
+
+
+![Alt text](img/Screenshot_20221214_231943.png)
+
+
+
+
 ---
 
 ### Задание 3. 
